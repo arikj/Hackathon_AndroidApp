@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+ >
+   
+    
+<TextView  
+ android:id="@+id/hellotxt"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:textSize="22sp"
+    />
+
+<TextView  
+ android:id="@+id/result"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:layout_marginTop="50pt"
+    android:layout_marginLeft="150pt"  
+    android:textSize="10sp"
+    />	
+
+<Button
+android:id="@+id/opt1"
+   android:layout_width="100pt" 
+    android:layout_height="15pt"
+    android:layout_marginTop="50pt" 
+    android:textSize="10sp"  
+    />
+
+<Button
+android:id="@+id/opt2"
+   android:layout_width="100pt" 
+    android:layout_height="15pt"
+    android:layout_marginTop="65pt" 
+    android:textSize="10sp"  
+    />
+
+<Button
+android:id="@+id/opt3"
+   android:layout_width="100pt" 
+    android:layout_height="15pt"
+    android:layout_marginTop="80pt" 
+    android:textSize="10sp"  
+    />
+
+<Button
+android:id="@+id/opt4"
+   android:layout_width="100pt" 
+    android:layout_height="15pt" 
+    android:layout_marginTop="95pt"
+    android:textSize="10sp"  
+    />
+ </RelativeLayout>  
